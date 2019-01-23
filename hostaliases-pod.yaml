@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hostaliases-pod
+  name: nginx
 spec:
   restartPolicy: Never
   hostAliases:
